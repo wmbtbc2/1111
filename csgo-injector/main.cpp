@@ -1,6 +1,6 @@
 #include <Windows.h>
 #include <stdio.h>
-#include "Mem.h"
+
 typedef LRESULT(WINAPI * MyProc)(int code, WPARAM wp, LPARAM lp); // export from calc_dll.dll
 
 int main()
